@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@contracts/*": ["libs/contracts/src/*"]
+    }
+  }
+}
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@contracts/*": ["libs/contracts/src/*"],
+      "@utils/*": ["libs/utils/src/*"]
+    }
+  }
+}

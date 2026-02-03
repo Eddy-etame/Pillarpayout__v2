@@ -1,0 +1,19 @@
+{
+  "name": "pillarpayout__v2",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:workspaces": "npm install",
+    "start:backend": "npm --workspace apps/backend run start:dev",
+    "start:gateway": "npm --workspace apps/gateway run start:dev",
+    "start:web": "npm --workspace apps/web run start"
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "keywords": [],
+  "author": "E&R",
+  "license": "ISC",
+  "description": ""
+}
